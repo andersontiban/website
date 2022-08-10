@@ -139,10 +139,7 @@ body{
     padding-top: 2%;
 }
 
-.weatherDiv{
 
-
-}
 /*For mobile*/
 @media screen and (max-device-width:480px){
     *{
@@ -191,9 +188,7 @@ body{
     .navbar-expand-lg{
         display: none;
     }
-    .mobileFooter{
-        background-color: white;
-    }
+
     /* Style the navigation menu */
 .topnav {
     overflow: hidden;
@@ -284,7 +279,7 @@ body{
     width: 80%;
   }
   .info{
-    margin-top: 0%
+    margin-top: 0%;
   }
   /* Transition*/
   .image{
