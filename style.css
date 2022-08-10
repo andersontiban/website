@@ -1,0 +1,305 @@
+/*For desktop*/
+@media screen and (min-device-width:750px){
+html{
+        scroll-behavior: smooth;
+        animation: transitionIn 1.00s;
+}
+@keyframes transitionIn {
+        from{
+            opacity: 0;
+            transform: rotateX(-10deg);
+        }
+    
+        to{
+            opacity: 1;
+            transform: rotateX(0);
+}
+}
+.projectInfo{
+    display: none;
+}
+    
+*{
+    margin:0;
+    padding: 0;
+    background-color: rgb(25, 25, 25); 
+    background-color: #282a36;
+}
+
+body{
+    background-color: #282a36; 
+}
+.nav{
+    padding-top: 15px;
+}
+.navbar-expand-lg{
+    width: 100%;
+    padding:0;
+    margin:0;
+    font-weight: bold;
+}
+.nav-link{
+    font-weight: bold;
+    color: whitesmoke;
+}
+.navbar-brand{
+    color: whitesmoke;
+    padding-right: 60%;
+    font-size: 160%;
+    background-color: #282a36; 
+    padding-left: 0%;
+    font-weight: bold;
+}
+.navbar-brand:hover{
+    color: grey;
+}
+.wrapper{
+    width: 75%;
+    margin: 0 auto;
+}
+.info{
+    width: 50%;
+    float: right;
+}
+.image{
+    width: 50%;
+    padding-top:10%;
+}
+.image h1{
+    color: rgb(223, 223, 223);
+    font-size: 350%;
+    padding-left: 1%;
+ }
+.image p{
+    color:rgb(156, 156, 156);
+    padding-left: 1%;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-top: 4%;
+}
+
+.button{
+    padding-top: 2%;
+}
+.btn-primary:hover{
+    background-color: rgb(150, 88, 150);
+    border-color: aliceblue;
+}
+.image-code{
+    width: 100%;
+    padding-top: 10%;
+    border-top-left-radius: 150%;
+    border-top-right-radius: 90%;
+    border-bottom-left-radius: 90%;
+    border-bottom-right-radius: 150%;
+    opacity: 80%;
+}
+.mobile-image{
+    display: none;
+}
+.topnav{
+    display: none;
+}
+}
+/*For Desktop Projects*/
+.projects{
+    padding-top: 12%;
+    width:75%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.projects h6{
+    color: whitesmoke;
+}
+
+.weatherIcon{
+    width: 45%;
+    height: auto;
+    border-radius: 6px;
+    float: left;
+    border: 2px solid white;
+}
+.weatherIcon:hover { 
+    transform: scale(1.02); 
+    opacity: 70%;
+    }
+
+.codeComputer{
+    width: 45%;
+    height: auto;
+    border-radius: 6px;
+    border: 2px solid white;
+}
+.codeComputer:hover { 
+    transform: scale(1.02); 
+    opacity: 70%;
+    }
+.showcase{
+    text-align:right;
+    padding-top: 2%;
+}
+
+.weatherDiv{
+
+
+}
+/*For mobile*/
+@media screen and (max-device-width:480px){
+    *{
+        margin:0;
+        padding:0;
+        background-color: whitesmoke;
+        scroll-behavior: smooth;
+    }
+    .info{
+        margin: 0%;
+        padding: 0%;
+        padding-bottom: 15%;
+    }
+    .wrapper{
+        padding-bottom: 0%;
+        margin-bottom: 0%;
+        background-color: whitesmoke;
+    }
+    .image-code{
+        display: none;
+    }
+    .image{
+        padding-top: 0px;
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+    .image-me{
+        border-radius: 50%;
+        height: auto;
+        width: 80%;
+        border: 2px solid rgb(146, 146, 146);
+    }
+    .center-img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 15%;
+    }
+    .mobile-image{
+        padding-top: 8%;
+        padding-bottom: 8%;
+    }
+    .button{
+        display: none;
+    }
+    .navbar-expand-lg{
+        display: none;
+    }
+    .mobileFooter{
+        background-color: white;
+    }
+    /* Style the navigation menu */
+.topnav {
+    overflow: hidden;
+    background-color: white;
+    position: relative;
+    width: 100%;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+    ;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background:white;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+
+  }
+  
+  /* Add a grey background color on mouse-over */
+
+  
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: white;
+    color: rgb(108, 207, 252);
+  }
+  .image-home{
+    width: 25px;
+    height: auto;
+    margin: 0 auto;
+    
+  }
+  .resumeParagraph{
+    padding-top:12%;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+  }
+/* Styling Projects */
+
+  .projectInfo p{
+    margin: 0%;
+    padding: 0%;
+  }
+
+  .headingMobile{
+    display: none;
+  }
+  .projects{
+    width: 100%;
+    padding-top: 0%;
+    margin: 0;
+    padding-bottom: 6%;
+  }
+  .resumeInfo{
+    display: none;
+  }
+  .codeDiv{
+    padding-top: 8%;
+    padding-right: 17%;
+  }
+  .weatherDiv{
+    margin: 0 auto;
+    text-align: center;
+    padding-left: 16%;
+    padding-bottom: 9%;
+  }
+  .weatherIcon{
+    width: 80%;
+    margin: 0 auto;
+
+  }
+  .codeComputer{
+    width: 80%;
+  }
+  .info{
+    margin-top: 0%
+  }
+  /* Transition*/
+  .image{
+    animation: transitionIn 1.10s;
+  }
+  @keyframes transitionIn {
+    from{
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+
+    to{
+        opacity: 1;
+        transform: rotateX(0);
+    }
+  }
+    
+}
