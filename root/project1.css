@@ -1,0 +1,196 @@
+@media screen and (min-device-width:750px){
+*{
+    background-color: #282a36;
+}
+ 
+   body{
+    background-color: #282a36;
+   }
+    html{
+        scroll-behavior: smooth;
+        animation: transitionIn 1.00s;
+        margin:0;
+        padding: 0;
+        background-color: #282a36;
+      
+    }
+    @keyframes transitionIn {
+        from{
+            opacity: 0;
+            transform: rotateX(-10deg);
+        }
+    
+        to{
+            opacity: 1;
+            transform: rotateX(0);
+    }
+    }
+.nav{
+    padding-top: 15px;
+  }
+  .topnav{
+    display: none;
+  }
+  .navbar-expand-lg{
+    width: 100%;
+    padding:0;
+    margin:0;
+    font-weight: bold;
+  }
+  .nav-link{
+    font-weight: bold;
+    color: whitesmoke;
+  }
+  .navbar-brand{
+    color: whitesmoke;
+    padding-right: 59%;
+    font-size: 160%;
+    padding-left: 0%;
+    font-weight: bold;
+  }
+  .navbar-brand:hover{
+    color: lightblue;
+  }
+  .wrapper{
+    width: 75%;
+    margin: 0 auto;
+  }
+  .overview{
+    padding-top: 12%;
+    width: 50%;
+    color:whitesmoke;
+    padding-left: 1%;
+  }
+
+
+  .overview p{
+    line-height: 35px;
+  }
+  .overview-solution{
+    padding-top: 5%;
+    width: 50%;
+    color:whitesmoke;
+    padding-left: 1%;
+    float: right;
+    padding-bottom: 3%;
+
+  }
+  .overview-image{
+    float:left;
+    width:50%;
+    padding-bottom: 1%;
+  }
+  .overview-image:hover{
+    transform: scale(1.10); 
+  }
+  .overview-solution p{
+    line-height: 35px;
+  }
+  .overvied{
+    padding-top: 34%;
+  }
+  hr{
+    background-color:whitesmoke;
+  }
+  .mobile-image{
+    display: 
+  }
+}
+
+@media screen and (max-device-width:480px){
+    *{
+        background-color: whitesmoke;
+       }
+       body{
+        background-color: whitesmoke;
+       }
+        html{
+            scroll-behavior: smooth;
+            animation: transitionIn 1.00s;
+            margin:0;
+            padding: 0;
+            background-color: whitesmoke;
+          
+        }
+        @keyframes transitionIn {
+            from{
+                opacity: 0;
+                transform: rotateX(-10deg);
+            }
+        
+            to{
+                opacity: 1;
+                transform: rotateX(0);
+        }
+        }
+        .nav{
+            display: none;
+        }
+        /* Style the navigation menu */
+.topnav {
+    overflow: hidden;
+    background-color: #282a36;
+    position: relative;
+    width: 100%;
+
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+    ;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background:white;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+
+  }
+  .overview-image{
+    display: none;
+  }
+  .mobile-image{
+    width: 100%;
+  }
+  hr{
+    display: none;
+  }
+  .wrapper{
+    padding-top: 10%;
+    width: 85%;
+    margin: 0 auto;
+  }
+  p{
+    line-height: 30px;
+    padding-bottom: 5%;
+  }
+
+  /* Add a grey background color on mouse-over */
+
+  
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: white;
+    color: rgb(108, 207, 252);
+  }
+  .image-home{
+    width: 25px;
+    height: auto;
+    margin: 0 auto;
+    
+  }
+
+}

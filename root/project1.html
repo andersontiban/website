@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="project1.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<div class="topnav">
+  <a href="index.html" class="active"> <img class="image-home"src= "images/home.jfif"></a>
+  <!-- Navigation links (hidden by default) -->
+  <div id="myLinks">
+  <a href="#bottom">Projects</a>
+  <a href="contact.html">Contact</a>
+  </div>
+  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+  <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<body>
+    <div class="wrapper">
+        <div class="nav">
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">AndersonTiban</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html#bottom">Projects</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+        </div>
+         <!-- Navbar for Mobile -->
+                <!-- Top Navigation Menu -->
+                
+
+
+        <div class="overview">
+            <h10>OVERVIEW</h10>
+            <h4>CHALLENGE</h4>
+            <p>I repeatly found myself checking the weather every morning. I always like being prepared for the day and so this was a task I never failed to do</p>
+        </div>
+        <hr>
+        <img class="overview-image"src="images/weatherappCode.jpg">
+        <div class="overview-solution">
+            <h10>OVERVIEW</h10>
+            <h4>SOLUTION</h4>
+            <p>I began by developing a Python program that would automate this task for me. At a high level view, the program begins by web scraping the tempterature for my local area. Once obtained the program sends out a sms message using gmail to any disired phone number</p>
+        </div> 
+        <div class="overvied">
+            <hr>
+            <h10>OVERVIEW</h10>
+            <h4>RESULTS</h4>
+            <p>Using the cloud server "PythonAnywhere" I uploaded my script with a daily run time of 7am. Below is picture of the outcome!</p>
+            <img class="mobile-image"src="images/IMG_6942.jpg">
+        </div>       
+
+    </div>
+    <!--<div class="overvied">
+        <hr>
+        <h10>OVERVIEW</h10>
+        <h4>SOLUTION</h4>
+        <p>I found myself contstanly repeating a task. I wanted to automate this task inmy life. Everymorning I devleoped the habit of checking the weather. I thought to myself, "Let me build a program that send me the tempterature every morning via sms". And thats exacly what i did</p>
+    </div>  -->   
+    
+
+    <script>
+        function myFunction() {
+var x = document.getElementById("myLinks");
+if (x.style.display === "block") {
+x.style.display = "none";
+} else {
+x.style.display = "block";
+}
+}
+    </script>
+
+
+</body>
+</html>
